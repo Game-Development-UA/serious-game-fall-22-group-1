@@ -1,6 +1,6 @@
 :: banana
 Hello world 
 [[continue->second text]]
-
+ 
 :: second text
 yea
