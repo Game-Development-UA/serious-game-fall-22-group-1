@@ -11,3 +11,15 @@ My Twine Game
 
 :: StoryInit
 <<set $myVariable to 1>>
+
+::StoryCaption
+Timeline (Days Left): 5
+
+::PassageHeader
+Story outcome from previous decision
+<br>
+<br>
+<br>
+
+
+ 
