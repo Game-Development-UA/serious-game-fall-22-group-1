@@ -7,7 +7,7 @@
 }
 
 :: StoryTitle
-My Twine Game
+Turtle Commander
 
 :: StoryInit
 <<set $myVariable to 1>>
