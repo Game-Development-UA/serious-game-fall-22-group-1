@@ -5,7 +5,7 @@ Being midday, you noticed there were more guards patrolling the coast and some o
 
 After leaving the base you and your squad proceed to go down the mountain where the base was located, entering the forest which has very tall trees that cover some of the sunlight and it is easier to hide yourself among the greens of the tall bushes and the woods.
 
-After walking for a few minutes you and your team encounter two guards that have their guard lowered and facing their backs at you. They each have weapons and a bag which one can infer that they have supplied like water and food.
+After walking for a few minutes you and your team encounter a group of five guards that have their guard lowered and facing their backs at you. They each have weapons and a bag which one can infer that they have supplied like water and food.
 
 What do you do?
 
@@ -34,4 +34,52 @@ What do you do?
 <</type>>
 
 ::2choiceignore
+<<type 50ms>> 
+<</type>>
+
+::2choiceleaving
+<<type 50ms>> 
+Sheldon pleads to you to leave him behind, that only covering for him would put the whole mission at risk and that either way he will not be able to run and will only turn into a hindrance to the team. 
+With hesitation, and rethinking it over and over again, this is a decision that it is going to put the death of a comrade over your shoulders for you to carry from today on, but you decide it will be for the best of your nation and that his sacrifice would not be in vain.
+
+You thank Sheldon and proceed to slowly go over the other side with your squad while Sheldon holds the guards on his own, defending himself he is only capable of doing so much. Without looking back you eventually stop hearing the gunshots, but you and the rest of the squad are alive and healthy.
+
+[[Next->2choiceleaving2]]
+<</type>>
+
+::2choicecombat
+<<type 50ms>> 
+Sheldon pleads you to leave him behind, that only covering for him would put the whole mission at risk and that either way he will not be able to run and only will become a hindrance to the team and the mission.
+But Sheldon is your comrade, you have fought multiple battles and faced multiple missions together, no matter what you could not leave a comrade to die in the battlefield alone like that. And so you set your foot on the ground and decided to help him by attacking the guards alongside your team.
+
+You signal your team to prepare for battle, and with a lack or arsenal on your side you still decide to face front the guards that were shooting at you. You and your squad open fire as well, but your ammo runs out much more quick, and your ammo is really limited.
+
+The guards surround you and your team defensless without being able to take them down.
+
+[[Next->Deathscreen]]
+
+<</type>>
+
+::2choiceleaving2
+<<type 50ms>> 
+You and the team managed to slip away from those armed guards, but at the cost of the life of one of your teammates. You wonder if that was the right choice or if there was something else that you could've done in order to prevent this, but this was your decision. And as a commander you must face hard decisions sometimes.
+
+After walking for some time you and your remaining comrades spot an open enemy camp, there is a few soldiers but you notice some of them are asleep, have their guard down, or are talking amongst each other.
+
+Unlike the previous encounter, this camping spot seems to hold a lot of resources like food, water and weapons that may benefit you and the team and it seems easier to ambush.
+
+What do you do?
+
+[[ - Have the team surround different spots of the camp and ambush them individually->2choiceattack]]
+
+[[ - Charge forward together and attack the soldiers->2choicecharge]]
+
+<</type>>
+
+::Deathscreen
+<<type 50ms>> 
+Y o u  D i e d
+
+Game over
+<</type>>
 
