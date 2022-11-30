@@ -76,6 +76,25 @@ What do you do?
 
 <</type>>
 
+::2choiceattack
+<<type 50ms>> 
+
+
+<</type>>
+
+::2choicecharge
+<<type 50ms>> 
+Since there is not much time to waste to reach the coast, you decide to attack the enemy camp; charging forward to first take out the people who are awake and are not armed.
+Doing this you and your team manage to take down a few soldiers, but a couple of other soldiers that were inside the tents come out and shoot your teammates.
+
+They are heavily injured if not dead by their wounds and the soldiers who were asleep wake up and get ready for battle faster than you thought. 
+
+You are forced to put your weapon down and are being hold up at gun point now by the shark soldiers.
+
+[[Next->Deathscreen]]
+
+<</type>>
+
 ::Deathscreen
 <<type 50ms>> 
 Y o u  D i e d
