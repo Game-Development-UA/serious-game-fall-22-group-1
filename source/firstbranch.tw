@@ -1,0 +1,73 @@
+::Choicepassive1
+ <<type 50ms>>
+ The guards are getting tired of waiting in their positions and are starting to be late for their shift change and you notice their mistakes.
+ [[next->Choicepassive2]]
+  <</type>>
+
+::Choicepassive2
+ <<type 50ms>>
+ you have waited 5 hours your troops are tired. Do you set up camp? They are getting very hungry and are waiting on your call
+ [[set up a camp->SurvivalPath1]]
+ [[Decide to wait for 2 more hours->SurvivalPath2]]
+  <</type>>
+  
+::SurvivalPath1
+<<type 50ms>>
+You set up camp and one day goes by and your troops use the food and water they have and are running low fast. You decided that you need to raid a camp for more resources.
+::SurvivalPath2
+Sheldon is caught scouting out the shift changes and is captured and is turned into turtle soup.
+[[Decide to save Sheldon->DeathPath1]]
+[[Decide to leave him->WinnerPath1]]
+     <</type>>
+
+::WinnerPath1
+<<type 50ms>>
+Your camp was raided but you all escaped but are very low on supplies so you make a run for the escape boat
+ <</type>>
+
+::DeathPath1
+<<type 50ms>>
+You get captured and died
+<</type>>
+
+::agressivepath1
+<<type 50ms>>
+You spot an enemy in the camp because the next group of guards are 10 minutes behind.
+[[Decide to attack->WinnerPath2]] 
+[[Decide to go around them->passivepath1]]
+<</type>>
+
+::passivepath1
+<<type 50ms>>
+You wait and end up all getting captured Sheldons Shell gets split open in the tortue process.
+[[Next->::DeathPath2]]
+<</type>>
+
+::DeathPath2
+<<type 50ms>>
+You all end up dying by your commander being turned into turtle salad and Bruno and Philp are forced to eat you as your last meal.
+<</type>>
+
+::WinnerPath2
+<<type 50ms>>
+You successfully raid the camp but Bruno was killed during the raid so you survive but at the cost of losing a soildier who took a bullet for you.
+<</type>>
+
+::SurvivalPath2
+<<type 50ms>>
+You waited 2 more hours to watch the movement of the sharks. You noticed that they are starting to not pay attention enough to attack anything
+[[Next->SurvivalPath1]]
+[[Next->agressivepath2]]
+<</type>>
+
+::agressivepath2
+<<type 50ms>>
+you attack the base but you ran as you watched all your troops died. Sheldon was skewerd through the chest, Philp got his head ripped off and the sharks played soccer with it. Bruno was ripped in half and they used his insides to fuel the fire to cook Philps body.
+[[Next->DeathPath3]]
+<</type>>
+
+::DeathPath3
+<<type 50ms>>
+You got caught running and got your body put in the center of the sharks camp while they eat your troops.
+<</type>>
+   
