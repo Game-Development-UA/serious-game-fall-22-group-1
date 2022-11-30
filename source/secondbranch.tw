@@ -1,1 +1,37 @@
 ::secondbranch
+<<type 50ms>> 
+The sun is still shining brightly covering the entire island, but one must take sometimes risks in order to survive; this being one of them. You gave the order to your squad and they all nodded and agreed with no hesitation, prepared their scarce amount of supplies and head outside of the base following you.
+Being midday, you noticed there were more guards patrolling the coast and some of the areas of the forest, but even if you had stayed in the base it would be just a matter of time for you and your squad to get detected.
+
+After leaving the base you and your squad proceed to go down the mountain where the base was located, entering the forest which has very tall trees that cover some of the sunlight and it is easier to hide yourself among the greens of the tall bushes and the woods.
+
+After walking for a few minutes you and your team encounter two guards that have their guard lowered and facing their backs at you. They each have weapons and a bag which one can infer that they have supplied like water and food.
+
+What do you do?
+
+[[ - Try to ambush them from behind->2choiceambush]]
+
+[[ - Ignore them and stealthly go a different direction->2choiceignore]]
+
+<</type>>
+
+::2choiceambush
+<<type 50ms>> 
+You make signals with your hand to your team, who was following behind you, about the two guards you just found a few meters away from you. Then immediately signaling them to ambush them since they looked like they had their guard down.
+
+The path was quite difficult to traverse stealthly since the terrain was very uneven and had a bunch of rocks, bushes and branches, in which Sheldon accidentally steps on one of them which causes a loud sound to be made. 
+
+The guards immediately heard the noise and turned their bodies around to the direction of the sound's origin: your position. They managed to get a view of you and your team and without hesitation started pointing their guns at you.
+You managed to take cover behind a large rock and some of your team as well, but Sheldon was not so lucky. He took a bullet to the leg, which started bleeding fast, leaving him in pain and making him unable to move as swiftly as before. 
+
+He is in pain and you have no way of treating his wounds, carrying him will slow you and the team to move on and escape, but the Shark guards are approaching your hiding spot.
+
+What do you do?
+
+[[ - Leave Sheldon behind and escape with the rest of the team->2choiceleaving]]
+[[ - Engage in full combat against the guards->2choicecombat]]
+
+<</type>>
+
+::2choiceignore
+
