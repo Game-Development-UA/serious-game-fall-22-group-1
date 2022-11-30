@@ -17,7 +17,7 @@ What do you do?
 
 ::2choiceambush
 <<type 50ms>> 
-You make signals with your hand to your team, who was following behind you, about the two guards you just found a few meters away from you. Then immediately signaling them to ambush them since they looked like they had their guard down.
+You make signals with your hand to your team, who was following behind you, about the guards you just found a few meters away from you. Then immediately signaling them to ambush them since they looked like they had their guard down.
 
 The path was quite difficult to traverse stealthly since the terrain was very uneven and had a bunch of rocks, bushes and branches, in which Sheldon accidentally steps on one of them which causes a loud sound to be made. 
 
@@ -29,12 +29,88 @@ He is in pain and you have no way of treating his wounds, carrying him will slow
 What do you do?
 
 [[ - Leave Sheldon behind and escape with the rest of the team->2choiceleaving]]
+
 [[ - Engage in full combat against the guards->2choicecombat]]
 
 <</type>>
 
 ::2choiceignore
 <<type 50ms>> 
+You make signals with your hands to your team to ignore the troops or soldiers that in front of your pathway. Engaging them in battle this early on will just alert them and others to call reinforcements which would make your escape not ideal, and more difficult. Moreover we don't know how much they know already so it's a better decision to try to go a through another way undetected.
+
+[[Next->2choiceignore2]]
+<</type>>
+
+::2choiceignore2
+<<type 50ms>>
+After succesfully remain undetected through the forest so far, you encounter a small camping spot with one tent and a few bags outside. It seems like some soldiers must be resting inside of it. 
+
+With your men in very healthy condition and the lack of weapons you got right now, it would be ideal to ambush them, overcome them and take their weapons and resources.
+
+You plan your team to burst open through their tent and with your small guns take down the two soldiers that were laying down with ease. 
+
+With no casualties in this exchange, you managed to obtain their rifles and food supplies.
+
+[[Next->2choiceignore3]]
+<</type>>
+
+::2choiceignore3
+<<type 50ms>>
+Now you and your team are full of food, supplies and weapons like grenades that you first lacked when you escaped the main base. Everyone is in good condition and after a quick check up you decide to pack everything that you could and continue moving through the forest until you eventually meet with your escape boat.
+
+After walking for a long time, you have been lucky to not find any troops that might trouble your way or your path of you and your comrades up until now. But this won't be for long since once you reach the coast you see an open enemy camp with more enemies than the one before.
+
+What do you do?
+[[ - Plan and raid the camp->2choiceraidcamp]]
+
+[[ - Stealthly avoid the camp and reach out for the coast->2choicestealth]]
+<</type>>
+
+::2choiceraidcamp
+<<type 50ms>>
+With your team covering behind some trees and analyzing the open enemy camp, you decide to split and try to take down the enemy camp as quickly as possible. 
+
+Using the grenades you and your squad found before raiding the other smaller camp you decide to use those as diversion to distract those who were guarding the camp.
+The plan starts off smoothly as some of the grenades hit some of the troops and damage the camp. Your team and yourself use this diversion to shoot with your rifles from outside to anyone that tries to run outside of the camp.
+Managing to kill a good amount of the soldiers that were in charge of that enemy camp.
+
+You see in the distance a boat is making their way to the coast beach, which must be the rescue boat you have been waiting for. 
+
+At the same time, a loud siren starts to sound throughout the entire island, it seems that your plan has been notified to the higher ups of the base and reinforcements are coming through.
+But there is not time to fight all of them nor it would be an easy task, so each one of the team gets in the rescue boat as quickly as possible.
+
+The reinforcements also manage to gather at the beach and start chasing you but it was too late for them, they desperately try to shoot the rescue boat but they do not end up making major harm to it nor anyone inside the boat.
+
+You have succesfully completed your mission with no casualties and served your nation.
+
+Well done commander Gerald
+
+[[Next->TrueEnding]]
+
+<</type>>
+
+::TrueEnding
+<<type 50ms>>
+T H E  E N d
+
+Thank you for playing!
+<</type>>
+
+::2choicestealth
+<<type 50ms>>
+You and your four team squad try to slowly and stealthly try to walk undetected through the in between of the forest and the coast in order to reach the meeting point with the rescue boat. 
+
+Unluckily for you, there was a guard that was patrolling around the area outside of the camp that spotted you. He notified the others with his handheld transceiver and an loud alarm started to make noise around the camp and the coast.
+You could see the soldiers arming up with their weapon to search for you and your team, while the only thing you can do is run.
+
+You and your squad try to fight back the patrol guard that spotted you but his reinforcements quickly came through; surrounding you and your team at gunpoint.
+
+You have no choice but to surrender. You communicate this to your team and throw your weapon in front of you, raising your hands up high. But the Sharks were not the kindest individuals to hold prisoners in this base, so quickly they loaded their guns and gunshots could be heard around the island.
+
+Your entire team has been sweeped out.
+
+[[Next->Deathscreen]]
+
 <</type>>
 
 ::2choiceleaving
@@ -78,7 +154,12 @@ What do you do?
 
 ::2choiceattack
 <<type 50ms>> 
+You talk to your comrades Bruno and Philip who are behind you awaiting your decision about the camp. You inform them that we all should ambush the camp from different spots and take them by surprise so that they can not react.
+Giving directions to both of them, Bruno stealthly moves across the trees and slowly approach the tent in which seemed to have a few people awake chatting, while Philip goes to the other tent that has the some soldiers sleeping. After you hear the gunshots coming from inside the tents that Bruno and Philip raided, the guards that were in the center of the camp become shocked at the loud noise of the gunshots that they become startled. 
 
+With the plan set in motion you come out of your hiding spot and easily take both of the startled guards with your gun. Making the whole raid a success with no casualties. You regroup with your comrades at the center of the open camp, and decide to leave before reinforcements come from the gunshots noises.
+
+[[Next->2choiceEnding1]]
 
 <</type>>
 
@@ -102,3 +183,16 @@ Y o u  D i e d
 Game over
 <</type>>
 
+::2choiceEnding1
+<<type 50ms>>
+After raiding the camp succesfully, you and the squad resume your escape and head for the coast. 
+
+Once in the coast you spot the docked ship where you meet some of your fellow Turtle nation soldiers that are waiting for you. 
+
+After raiding the nearby camp you succesfully managed to get in the escape boat with no issue of nearby guards or soldiers trying to attack the boat.
+
+Unfortunately not everyone could make it and only you and two of your comrades survived, Bruno and Philip.
+
+T H E   E N D 
+
+<</type>>
