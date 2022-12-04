@@ -1,18 +1,18 @@
 ::Choicepassive1
- <<type 50ms>>
+ <<type 10ms>>
  The guards are getting tired of waiting in thier positions and are starting to be late to their shift change and you notice their mistakes. Each hour that passes the time between gaurd shifts increases and Philp reports this back to you and everyone is ready for a decsion.
  [[next->Choicepassive2]]
   <</type>>
 
 ::Choicepassive2
- <<type 50ms>>
+ <<type 10ms>>
  you have waited 5 hours your troops are tired. Do you set up camp? They are getting very hungy and are waiting on your decison. They question why didnt they go back for supplies to help fight and feed themselves. They want to be able to be at 100% in case of a fight.
  [[set up a camp->SurvivalPath1]]
  [[Decide to wait for 2 more hours->SurvivalPath2]]
   <</type>>
   
 ::SurvivalPath1
-<<type 50ms>>
+<<type 10ms>>
 You set up camp and one day goes by and your troops use the food and water they have and are running low fast. You decided that you need to raid a camp for more resources.
   <</type>>
 ::SurvivalPath2
@@ -22,52 +22,52 @@ Sheldon is caught scouting out the shift changes and is captured and is turned i
      <</type>>
 
 ::WinnerPath1
-<<type 50ms>>
+<<type 10ms>>
 Your camp was raided but you all escaped but are very low on supplies so you make a run for the escape boat. 
  <</type>>
 
 ::DeathPath1
-<<type 50ms>>
+<<type 10ms>>
 You get captured and died.
 <</type>>
 
 ::agressivepath1
-<<type 50ms>>
+<<type 10ms>>
 You spot an enemy in the camp because the next group of guards are 10 minutes behind.
 [[Decide to attack->WinnerPath2]] 
 [[Decide to go around them->passivepath1]]
 <</type>>
 
 ::passivepath1
-<<type 50ms>>
+<<type 10ms>>
 You wait and end up all getting captured Sheldons Shell gets split open in the tortue process. You are dragged across the island and brought in front of the Shark General and he begins to interagate you.
 [[What is your death?->DeathPath2]]
 <</type>>
 
 ::DeathPath2
-<<type 50ms>>
+<<type 10ms>>
 You all end up dying by your commander being turned into turtle salad and Bruno and Philp are forced to eat you as your last meal. The Sharks celebrate their victory and begin to dance in circles around the bodies.
 <</type>>
 
 ::WinnerPath2
-<<type 50ms>>
+<<type 10ms>>
 You successfully raid the camp but Bruno was killed during the raid so you survive but at the cost of losing a soildier who took a bullet for you. When you escape you had a funeral where his body was never retrieved and this haunts you in your sleep.
 <</type>>
 
 ::SurvivalPath2
-<<type 50ms>>
+<<type 10ms>>
 You waited 2 more hours to watch the movement of the sharks. You noticed that they are starting to not pay attention enough to attack anything, they often like to mess around and joke with eachother then begin to get lazy. 
 [[Set up camp->SurvivalPath1]]
 [[Attack them->agressivepath2]]
 <</type>>
 
 ::agressivepath2
-<<type 50ms>>
+<<type 10ms>>
 you attack the base but you ran as you watched all your troops died. Sheldon was skewerd through the chest, Philp got his head ripped off and the sharks played soccer with it. Bruno was ripped in half and they used his insides to fuel the fire to cook Philps body.
 [[You are next->DeathPath3]]
 <</type>>
 
 ::DeathPath3
-<<type 50ms>>
+<<type 10ms>>
 You got caught running and got your body put in the center of the sharks camp while they eat your troops.
 <</type>>
