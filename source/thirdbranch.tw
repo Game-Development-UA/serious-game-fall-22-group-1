@@ -1,42 +1,50 @@
 ::Mission Start
 <<type 10ms>> 
+<img src="media/TCMap1.png">
+
 
 It is a cloudy day and your nation is running low on resources. The turtle army decides that they must make a move in order for them to be able to eat this winter. Gerald and the rest decide to take a risk and sneak into the enemy base to gather resources. As they start collecting, two of your soldiers are spotted
 
 [[To Move Further Into the Base->Hallways]]
 [[Fight the 3 Guards who Spotted the Group->Shootout]]
+<img src="media/TCHP(Full).png">
+
 <</type>>
 
 ::Hallways
 <<type 10ms>> 
-
+<img src="media/TCMap1.png">
  As Gerald moves further into the base he finds 2 hallways. He notices a sign on the right hallway that says authorized access only. The left hallway has a room that has a very bright light. He must make a choice of which hallway to choose.
 
 [[Hallway #1->Ancient Weapon]]
 [[Hallway #2->Food Room]]
+<img src="media/TCHP(Full).png">
+
 <</type>>
 
 ::Shootout
 <<type 10ms>> 
-
+<img src="media/TCMap1.png">
 Gerald decides to fight the 3 guards that spotted the troop. There are three potential outcomes depending on the move he makes:
 
 [[Gerald Shoots First->Group Dubs]]
 [[The Group Shoots First->Supply Run]]
 [[The Guards Shoot First->Bad Planning]]
+<img src="media/TCHP(Full).png">
 <</type>>
  
 :: Ancient Weapon
 <<type 10ms>> 
-
+<img src="media/TCMap1.png">
  Gerald chooses to move into the right hallway. He discovers an ancient shark weapon and decides to grab it. The guards are alerted so the troop decides to escape. In the process one of your soldiers is shot down.
 
 [[Escape is the Only Option->Boat Dock Sprint]]
+<img src="media/TCHP(BDead).png">
 <</type>>
 
 ::Food Room
 <<type 10ms>> 
-
+<img src="media/TCMap1.png">
  Gerald walks into a room full of food. He starts filling up a giant wagon to bring back home, but is spotted by 4 strolling guards. Gerald and 2 other soldiers have a shootout. One of your fellow soldiers named Sheldon is heavily wounded and Gerald must decide:
 
 [[Leave the Food->Homie Boat]]
@@ -45,26 +53,28 @@ Gerald decides to fight the 3 guards that spotted the troop. There are three pot
 
 ::Group Dubs
 <<type 10ms>> 
-
+<img src="media/TCMap1.png">
  If Gerald chooses to shoot first at the guards then you end up winning, however the group is very tired. More guards are alerted and on the way. He has two choices to make:
 
-[[Supply Run->Quiet Leave]]
+[[Head to collect supplies->Supply Run]]
 [[Fight On->Unfair Odds]]
+<img src="media/TCHP(Full).png">
 <</type>>
 
 
 
 ::Supply Run
 <<type 10ms>> 
-
+<img src="media/TCMap1.png">
 After Gerald collects supplies somewhere else him and the troop to decide to leave quietly
 
 [[Quiet Leave->Ending]]
+<img src="media/TCHP(Full).png">
 <</type>>
 
 ::Bad Planning
 <<type 10ms>> 
-
+<img src="media/TCMap1.png">
 If Gerald lets the enemy shoot first then he is faced with two choices.
 
 [[Run Away->Sniper Gang]]
@@ -73,14 +83,19 @@ If Gerald lets the enemy shoot first then he is faced with two choices.
 
 ::Boat Dock Sprint
 <<type 10ms>> 
+<img src="media/TCMap1.png">
+
  Gerald continues to evade the guards as you escape from the base. He decides to go to the boat dock to find a way out.
 
 [[Longest Hallway->Bad Ending]]
+
+<img src="media/TCHP(BDead).png">
+
 <</type>>
 
 ::Homie Boat
 <<type 10ms>> 
-
+<img src="media/TCMap2.png">
 Gerald finds an open boat to put your wounded comrade. He tells him that he’ll be back after he meets up with the rest of the soldiers. His only choice is to wait
 
 [[A Long Wait->Patience Rewarded]]
@@ -88,7 +103,7 @@ Gerald finds an open boat to put your wounded comrade. He tells him that he’ll
 
 ::Rough Choices
 <<type 10ms>> 
-
+<img src="media/TCMap1.png">
 As Gerald takes the Wagon of food he is faced with two choices
 
 [[Supply Run->Quiet Leave]]
@@ -105,18 +120,18 @@ Gerald decided to fight the approaching guards and was gunned down while the gro
 
 ::Patience Rewarded
 <<type 10ms>> 
-
+<img src="media/TCMap2.png">
 Gerald waited patiently and was able to group back up with the troop. Gerald and the guys take the boat with your wounded comrade and win a bloody water battle to escape back home.
 
-[[Quiet Leave]]
+[[Next->Quiet Leave]]
 <</type>>
 
 ::Sniper Gang
 <<type 10ms>> 
-
+<img src="media/TCMap1.png">
 Gerald decides to run away and escape. As he tries to escape he is sniped by an enemy guard and eventually gunned down.
 
-[[Bad Ending]]
+[[Next->Deathscreen]
 <</type>>
 
 ::Lone Soldier
@@ -129,8 +144,9 @@ Gerald stayed behind while the group left. They thought Gerald was going to die,
 
 ::Quiet Leave
 <<type 10ms>> 
-
+<img src="media/TCMap6.png">
 Gerald and the troop escape safely and quietly
+<img src="media/TCHP(Full).png">
 <</type>>
 
 ::Ending
@@ -141,6 +157,9 @@ The troop couldn’t be reached so they left peacefully
 
 ::Bad Ending
 <<type 10ms>> 
- 
+<img src="media/TCMap1.png">
+
 Gerald was gunned down or sniped
+
+[[Next->Deathscreen]]
 <</type>>
